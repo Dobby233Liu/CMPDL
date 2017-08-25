@@ -8,7 +8,7 @@ public class OperatorThread extends Thread {
 	public OperatorThread(String url, String version) {
 		this.url = url;
 		this.version = version;
-		setName("Operator");
+		setName("调试器");
 		setDaemon(true);
 		start();
 	}
