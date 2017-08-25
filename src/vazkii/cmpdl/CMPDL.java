@@ -38,6 +38,7 @@ public final class CMPDL {
 	public static List<String> missingMods = null;
 
 	public static void main(String[] args) {
+		
 		if(args.length > 0) {
 			String url = args[0];
 			String version = "latest";
@@ -53,6 +54,7 @@ public final class CMPDL {
 
 	public static void downloadFromURL(String url, String version) throws Exception {
 		if(downloading)
+			
 			return;
 
 		if(url.contains("feed-the-beast.com") && version.equals("latest")) {
