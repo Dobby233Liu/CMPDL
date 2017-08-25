@@ -36,7 +36,7 @@ public class Interface {
 	
 	public static void openInterface() {
 		frame = new Frame();
-		setStatus("Idle");
+		setStatus("等待");
 	}
 
 	public static void addLogLine(String s) {
@@ -76,14 +76,14 @@ public class Interface {
 		}
 		
 		if(frame != null)
-			frame.downloadButton.setText("Download");
+			frame.downloadButton.setText("下载");
 		
 		CMPDL.downloading = false;
 	}
 	
 	public static void error() {
 		finishDownload(false);
-		setStatus("Errored");
+		setStatus("错误");
 	}
 
 	static final class Frame extends JFrame implements ActionListener, KeyListener {
@@ -107,7 +107,7 @@ public class Interface {
 
 		public Frame() {
 			setSize(800, 640);
-			setTitle("Vazkii's Curse Modpack Downloader (CMPDL)");
+			setTitle("Vazkii 的 Curse Modpack Downloader (CMPDL)");
 
 			panel = new JPanel();
 			panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
@@ -119,11 +119,11 @@ public class Interface {
 			versionPanel = new JPanel();
 			versionPanel.setLayout(new BoxLayout(versionPanel, BoxLayout.PAGE_AXIS));
 			statusPanel = new JPanel();
-			downloadButton = new JButton("Download");
+			downloadButton = new JButton("下载");
 			downloadButton.setAlignmentX(CENTER_ALIGNMENT);
-			urlLabel = new JLabel("Modpack URL :");
+			urlLabel = new JLabel("整合包 URL :");
 			urlField = new JTextField("", 54);
-			versionLabel = new JLabel("Curse File ID :");
+			versionLabel = new JLabel("Curse 文件 ID :");
 			versionField = new JTextField("latest", 20);
 
 			logArea = new JTextArea(34, 68);
@@ -141,8 +141,8 @@ public class Interface {
 
 			currentStatus = new JLabel("", SwingConstants.LEFT);
 
-			clearButton = new JButton("Clear Output");
-			clearButton.setAction(new AbstractAction("Clear Output") {
+			clearButton = new JButton("清除输出");
+			clearButton.setAction(new AbstractAction("清除输出") {
 				private static final long serialVersionUID = 1L;
 
 				@Override
@@ -208,13 +208,13 @@ public class Interface {
 				boolean downloading = CMPDL.downloading;
 				if(downloading && operatorThread != null) {
 					Interface.finishDownload(true);
-					Interface.setStatus("Stopped Manually");
+					Interface.setStatus("已经停止");
 				} else {
 					String url = urlField.getText();
 					String version = versionField.getText();
 					if(url != null && !url.isEmpty() && !downloading) {
 						operatorThread = new OperatorThread(url, version);
-						((JButton) e.getSource()).setText("Stop");	
+						((JButton) e.getSource()).setText("停止");	
 					}
 				}
 			}
