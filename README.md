@@ -1,7 +1,7 @@
 # CMPDL
 
 
-`zh_CN` Translater: Dobby233Liu
+`zh_CN` Translater: Dobby233Liu (as a Travis CI Project: [![Build Status](https://travis-ci.org/Dobby233Liu/CMPDL.svg?branch=master)](https://travis-ci.org/Dobby233Liu/CMPDL))
 
 **Curse Modpack Downloader**
 
