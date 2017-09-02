@@ -8,4 +8,6 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
- 
+      - gradle
+      
+ install: ant deps
