@@ -10,4 +10,4 @@ addons:
       - oracle-java8-installer
       - gradle
       
- install: ant deps
+ install: gradle bulid
