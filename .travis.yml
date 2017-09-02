@@ -13,3 +13,4 @@ addons:
  install: 
          - gradle wrapper
          - ./gradlew properties
+         - gradle bulid
