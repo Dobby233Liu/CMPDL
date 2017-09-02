@@ -12,3 +12,4 @@ addons:
       
  install: 
          - gradle wrapper
+         - ./gradlew properties
