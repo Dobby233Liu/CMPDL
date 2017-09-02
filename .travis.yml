@@ -10,4 +10,5 @@ addons:
       - oracle-java8-installer
       - gradle
       
- install: gradle bulid
+ install: 
+         - gradle wrapper
