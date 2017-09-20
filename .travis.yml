@@ -8,9 +8,6 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
-      - gradle
+     
       
- install: 
-         - gradle wrapper
-         - ./gradlew properties
-         - gradle bulid
+ 
