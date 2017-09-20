@@ -36,7 +36,7 @@ public class Interface {
 	
 	public static void openInterface() {
 		frame = new Frame();
-		log("汉化者Dobby233Liu，但不翻译log，也有错")
+		log("汉化者Dobby233Liu，但不翻译log，也有错");
 		setStatus("等待");
 	}
 
