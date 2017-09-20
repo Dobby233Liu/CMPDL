@@ -17,3 +17,7 @@
  * 论要在这里指定一个版本, 输入版本号在 "Curse File ID"/"Curse 文件 ID" 地区.
  * 点击 Download 再等待.
  * 在你需要的时候复制你的包文件.
+ 
+## 译者注
+
+搞了很久，TCI终于passing了。。。顺便凑个commit数
