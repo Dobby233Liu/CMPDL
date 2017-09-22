@@ -24,4 +24,4 @@
 
 ## 特别感谢
 
-Vazkii#21
+[Vazkii#21](/Vazkii/CMPDL/pull/21)
