@@ -1,5 +1,6 @@
 # CMPDL
 
+![](https://github.com/Dobby233Liu/CMPDL/blob/master/20170923-213032-do-20170923-214738-ok.png?raw=true)
 
 `zh_CN` Translater: Dobby233Liu (as a Travis CI Project: [![Build Status](https://travis-ci.org/Dobby233Liu/CMPDL.svg?branch=master)](https://travis-ci.org/Dobby233Liu/CMPDL))
 
@@ -20,7 +21,7 @@
  
 ## 译者注
 
-搞了很久，TCI终于passing了。。。顺便凑个commit数
+搞了很久，TCI终于passing了。。。顺便凑个commit数![](https://github.com/Dobby233Liu/CMPDL/blob/master/20170917165411-do-ok.png?raw=true)
 
 ## 特别感谢
 
