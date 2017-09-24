@@ -8,6 +8,7 @@ gradle check
 
 # are the code wrong
 
+gradle jar
 gradle build 
 
 # this will bulid the app
