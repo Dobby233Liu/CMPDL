@@ -1,6 +1,6 @@
-# need Gradle and also use at Travis CI
+# need Gradle and also can used at Travis CI if you trust
 
-gradle init --type java-application
+# gradle init --type java-application
 
 # do an init task
 
