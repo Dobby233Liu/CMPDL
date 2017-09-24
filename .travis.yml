@@ -10,9 +10,9 @@ addons:
       - oracle-java8-installer
      
     # before_script: echo "Ready to build"
- script: 
- - gradle check
- - gradle jar
- - gradle build
+# script: 
+# - gradle check
+# - gradle jar
+# - gradle build
       
  
