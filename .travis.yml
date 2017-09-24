@@ -9,6 +9,7 @@ addons:
     packages:
       - oracle-java8-installer
      
- # script: ./gradle-build.sh
+    # before_script: echo "Ready to build"
+ script: ./gradle-build.sh
       
  
