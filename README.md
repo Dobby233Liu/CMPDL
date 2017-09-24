@@ -2,7 +2,7 @@
 
 ![](https://github.com/Dobby233Liu/CMPDL/blob/master/20170923-213032-do-20170923-214738-ok.png?raw=true)
 
-`zh_CN` Translater: Dobby233Liu (as a Travis CI Project: [![Build Status](https://travis-ci.org/Dobby233Liu/CMPDL.svg?branch=master)](https://travis-ci.org/Dobby233Liu/CMPDL))
+`zh_CN` Translater: Dobby233Liu (as a Travis CI Project: [![Build Status](https://travis-ci.org/Dobby233Liu/CMPDL-ZH_CN.svg?branch=master)](https://travis-ci.org/Dobby233Liu/CMPDL-ZH_CN))
 
 **Curse Modpack Downloader**
 
